@@ -202,6 +202,34 @@ nav ul li a{
 .card{
     height: 430px;
 }
+/* flower-plants lover */
+.logo{
+    display: none;
+}
+.flower-plants{
+    margin: 10px;
+    position: relative;
+}
+.flower-plants-left img{
+    height: auto;
+    width: 100%;
+}
+.flower-plants-lover{
+    flex-direction: column;
+    margin: 15px;
+    gap: 20px;
+ 
+}
+.flower-plants-right h1{
+    font-size: 30px;
+    font-weight: bold;
 
+}
+.flower-plants-right ul{
+    padding-left: 20px;
+}
+.flower-plants-right ul li{
+    font-size: 21px;
+}
 
 }
