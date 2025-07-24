@@ -265,8 +265,53 @@ nav ul li a{
 /* footer section */
 footer{
     background-color: rgba(255, 255, 255, 0.5);
+    height: 280px;
+    padding: 0px 120px;
+    place-content: center;
 }
-
+.footer-section{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-section{
+    width: 300px;
+    background-color: transparent;
+}
+.banner-section img , p{
+    background-color: transparent;
+}
+.banner-section p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+footer ul{
+    background-color: transparent;
+}
+footer ul li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #6B7280;
+}
+footer ul li{
+    list-style: none;
+    background-color: transparent;
+    margin-top: 26px;
+    
+}
+footer ul li:first-child{
+    margin-top: 0px;
+}
+.navbar-section-1, .navbar-section-2{
+    background-color: transparent;
+}
+.icon-section{
+    background-color: transparent;
+}
+.icon-section img{
+    background-color: transparent;
+    margin-right: 20px;
+}
 
 /* Responsive Part */
 /* Mobile */
@@ -385,5 +430,15 @@ footer{
 }
 .join-bunch-input .btn-primary{
     width: 100px;
+}
+
+/* footer section */
+.footer-section{
+    flex-direction: column;
+    gap: 26px;
+}
+footer{
+    height: auto;
+    padding: 50px 20px;
 }
 }
