@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -57,3 +57,35 @@ nav ul li a{
 
 
 /* Responsive Part */
+/* Mobile */
+@media (max-width: 576px) {
+    /* navbar and banner responsive style */
+    nav{
+        margin: 13px 16px;
+    }
+    nav ul li{
+    display: none;
+
+}
+#cart-shop{
+    display: block;
+    place-items: end;
+}
+.banner{
+    flex-direction: column-reverse;
+    margin: 0;
+}
+.banner-left{
+    margin: 13px 16px;
+}
+.banner-title{
+    font-size: 24px;
+}
+.banner-description{
+    font-size: 14px;
+}
+.banner-right img{
+    width: 100%;
+}
+
+}
