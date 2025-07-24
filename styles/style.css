@@ -153,6 +153,78 @@ nav ul li a{
     font-size: 22.5px;
     padding-top: 10px;
 }
+/* latest section */
+.latest-section{
+    margin: 30px 120px;
+}
+.card-section-new{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+.card-section-new-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card-section-new-left-1{
+    background-image: url(../assets/deal-bloom.png);
+    border-radius: 14px;
+    height: 200px;
+    width: 350px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.card-section-new-left-2{
+    background-image: url(../assets/deal-ana.png);
+    border-radius: 14px;
+     height: 200px;
+    width: 350px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.card-section-new-left-1 h3, .card-section-new-left-2 h3{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+.card-section-new-left-1 a, .card-section-new-left-2 a{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.card-section-new-right{
+    background-image: url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.card-section-new-right h3{
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+.card-section-new-right a{
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
 
 
 /* rgba(255, 255, 255, 0.5) */
@@ -207,7 +279,7 @@ nav ul li a{
     display: none;
 }
 .flower-plants{
-    margin: 10px;
+    margin: 16px;
     position: relative;
 }
 .flower-plants-left img{
@@ -232,4 +304,34 @@ nav ul li a{
     font-size: 21px;
 }
 
+/* latest-section */
+.card-section-new{
+    flex-direction: column;
+    gap: 25px;
+}
+.latest-section{
+    margin: 30px;
+    margin-top: 60px;
+}
+.card-section-new-left-1, .card-section-new-left-2, .card-section-new-right {
+    border-radius: 14px;
+     height: 200px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-section-new-left-1 a, .card-section-new-left-2 a, .card-section-new-right a{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.card-section-new-right h3{
+    font-size: 20px;
+}
 }
