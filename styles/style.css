@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* common style */
+.title-color{
+    color: #E95A08;
+}
+/* Navbar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 120px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+     text-decoration: none;
+     font-size: 16px;
+     color: #8987A1;
+     
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px 120px;
+}
+.banner-title{
+    font-size: 29px;
+    font-weight: bold;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 21px;
+}
+.banner-left{
+    flex: 1;
+}
+.banner-right{
+    flex: 1;
+}
+
+
+
+
+/* Responsive Part */
