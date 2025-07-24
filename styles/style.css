@@ -224,10 +224,50 @@ nav ul li a{
     font-weight: 600;
     
 }
+/* join section */
+.join-bunch{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    margin-top: 80px;
+}
+.join-bunch h1{
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+.join-bunch-input{
+    display: flex;
+    background-color: transparent;
+    margin-top: 15px
+}
+.join-bunch-input input{
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    height: 50px;
+    width: 640px;
+    padding-left: 20px;
+
+}
+.join-bunch-input .btn-primary{
+    width: 186px;
+    text-align: center;
+}
+/* footer section */
+footer{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 
-
-/* rgba(255, 255, 255, 0.5) */
 /* Responsive Part */
 /* Mobile */
 @media (max-width: 576px) {
@@ -333,5 +373,17 @@ nav ul li a{
 }
 .card-section-new-right h3{
     font-size: 20px;
+}
+
+/* input section */
+.join-bunch h1{
+    font-size: 20px;
+}
+.join-bunch-input input{
+    width: 220px;
+
+}
+.join-bunch-input .btn-primary{
+    width: 100px;
 }
 }
