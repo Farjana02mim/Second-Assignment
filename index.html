@@ -10,14 +10,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Responsive Flower Shop</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header>
+      <div class="responsive">
+        <div class="responsive-left"><h5>9:41</h5></div>
+        <div class="responsive-right">
+          
+        </div>
+      </div>
       <nav>
         <img src="./assets/logo.png" alt="" />
-        <ul>
+        <ul class="inter">
           <li><a style="font-weight: bold; color: #252432" href="">Home</a></li>
           <li><a href="">Shop</a></li>
           <li><a href="">About us</a></li>
@@ -37,7 +46,7 @@
               >
             </h1>
           </div>
-          <div class="banner-description">
+          <div class="banner-description inter">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
@@ -51,15 +60,15 @@
     <main>
       <!-- card section -->
       <div class="card-section">
-        <h1 class="card-section-title">
+        <h1 class="card-section-title .noto-serif">
           <span class="title-color">Our</span> Plants
         </h1>
-        <p class="card-section-description">
+        <p class="card-section-description inter">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <div class="cards">
+        <div class="cards inter">
           <div class="card">
             <img src="./assets/sample-flower-image.png" alt="" />
             <p>Lily Blossom</p>
@@ -106,7 +115,7 @@
             <img src="./assets/sample-flower-image.png" alt="" />
             <p>Lily Blossom</p>
             <h4>20 USD</h4>
-            <button class="btn-primary">ADD TO CART</button>
+            <button class="btn-primary inter">ADD TO CART</button>
           </div>
         </div>
       </div>
@@ -120,8 +129,8 @@
             <img src="./assets/flower-store.png" alt="" />
           </div>
           <div class="flower-plants-right">
-            <h1>Flower & Plants Lover</h1>
-            <ul>
+            <h1 class="noto-serif">Flower & Plants Lover</h1>
+            <ul class="inter">
               <li>
                 Indulge your senses with the beauty and fragrance of our fresh
                 flower shop. From classic roses to exotic blooms, we offer a
@@ -143,10 +152,10 @@
       </section>
 
       <section class="latest-section">
-        <h1 class="card-section-title">
+        <h1 class="card-section-title noto-serif">
           <span class="title-color">Latest</span> Deals
         </h1>
-        <p class="card-section-description">
+        <p class="card-section-description inter">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
@@ -154,32 +163,32 @@
         <div class="card-section-new">
           <div class="card-section-new-left">
             <div class="card-section-new-left-1">
-              <h3>60% Off | Bloom Plant</h3>
-              <a href="">Shop Now</a>
+              <h3 class="noto-serif">60% Off | Bloom Plant</h3>
+              <a class="inter" href="">Shop Now</a>
             </div>
-            <div class="card-section-new-left-2">
+            <div class="card-section-new-left-2 noto-serif">
               <h3>30% Off | Ana Plant</h3>
-              <a href="">Shop Now</a>
+              <a class="inter" href="">Shop Now</a>
             </div>
           </div>
           <div class="card-section-new-right">
-            <h3>25% Off | Zabo Plant</h3>
-            <a href="">Shop Now</a>
+            <h3 class="noto-serif">25% Off | Zabo Plant</h3>
+            <a class="inter" href="">Shop Now</a>
           </div>
         </div>
       </section>
 
       <section class="join-bunch">
-        <h1>Join the colorful Bunch</h1>
+        <h1 class="noto-serif">Join the colorful Bunch</h1>
         <div class="join-bunch-input">
-          <input type="email" name="" id="" placeholder="Write email">
-          <button class="btn-primary">Subscribe</button>
+          <input class="inter" type="email" name="" id="" placeholder="Write email">
+          <button class="btn-primary inter">Subscribe</button>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="footer-section">
+      <div class="footer-section inter">
         <div class="banner-section">
           <img src="./assets/logo.png" alt="">
           <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>

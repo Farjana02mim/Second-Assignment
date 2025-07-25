@@ -4,6 +4,14 @@
     background-color: #F5F8FF;
     
 }
+/* font family */
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+}
 /* common style */
 .title-color{
     color: #E95A08;
@@ -15,7 +23,7 @@
     height: 50px;
     width: 100%;
     border: none;
-    margin-bottom: 10px;
+
 }
 /* Navbar Style */
 nav{
@@ -48,27 +56,28 @@ nav ul li a{
     align-items: flex-end;
     margin: 50px 120px;
 }
-.banner-title{
+.banner-title, .noto-serif{
     font-size: 29px;
     font-weight: bold;
 }
 .banner-description{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 21px;
+    font-size: 18px;
 }
 
 /* card-section style */
 .card-section{
-    margin: 30px 120px;
-    /* place-items: center; */
+    margin: 50px 120px;
+
 }
 .card-section-title{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
 }
 .card-section-description{
-    font-size: 22px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-top: 15px;
@@ -82,10 +91,10 @@ nav ul li a{
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     justify-content: space-between;
+    margin-bottom: 170px;
     
 }
 .card{
-    height: 484px;
     width: 100%;
     align-items: center;
     margin-bottom: 10px;
@@ -96,12 +105,12 @@ nav ul li a{
 .card p{
     text-align: center;
     margin-top: 25px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     color: #111111;
 }
 .card h4{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: #111111;
     text-align: center;
@@ -150,7 +159,7 @@ nav ul li a{
 }
 .flower-plants-right ul li{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 22.5px;
+    font-size: 19px;
     padding-top: 10px;
 }
 /* latest section */
@@ -169,6 +178,8 @@ nav ul li a{
 }
 .card-section-new-left-1{
     background-image: url(../assets/deal-bloom.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     border-radius: 14px;
     height: 200px;
     width: 350px;
@@ -178,6 +189,8 @@ nav ul li a{
 }
 .card-section-new-left-2{
     background-image: url(../assets/deal-ana.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     border-radius: 14px;
      height: 200px;
     width: 350px;
@@ -201,6 +214,8 @@ nav ul li a{
 }
 .card-section-new-right{
     background-image: url(../assets/deal-zabo.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,6 +242,8 @@ nav ul li a{
 /* join section */
 .join-bunch{
     background-image: url(../assets/news-letter-bg.png);
+    background-color: rgba(7, 51, 79, 0.4);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,7 +299,7 @@ footer{
     background-color: transparent;
 }
 .banner-section p{
-    font-size: 22px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
 }
 footer ul{
@@ -309,8 +326,20 @@ footer ul li:first-child{
     background-color: transparent;
 }
 .icon-section img{
-    background-color: transparent;
     margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.icon-section img:nth-child(2){
+    box-sizing: border-box;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    background-size: cover;
+    border-radius: 48%;
+    padding: 5px;
+
 }
 
 /* Responsive Part */
@@ -336,10 +365,10 @@ footer ul li:first-child{
     margin: 13px 16px;
 }
 .banner-title{
-    font-size: 24px;
+    font-size: 18px;
 }
 .banner-description{
-    font-size: 22px;
+    font-size: 18px;
 }
 .banner-right img{
     width: 100%;
@@ -352,12 +381,14 @@ footer ul li:first-child{
 .card-section-description{
     text-align: center;
     padding: 0 10px;
+    font-size: 17.5px;
 }
 .cards{
     grid-template-columns: repeat(2,1fr);
+     margin-bottom: 20px;
 }
 .card{
-    height: 430px;
+    /* height: 430px; */
 }
 /* flower-plants lover */
 .logo{
@@ -386,7 +417,7 @@ footer ul li:first-child{
     padding-left: 20px;
 }
 .flower-plants-right ul li{
-    font-size: 21px;
+    font-size: 17px;
 }
 
 /* latest-section */
@@ -405,6 +436,8 @@ footer ul li:first-child{
     display: grid;
     place-content: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -421,11 +454,15 @@ footer ul li:first-child{
 }
 
 /* input section */
+.join-bunch{
+    height: 400px;
+}
 .join-bunch h1{
     font-size: 20px;
+    margin-top: 50px;
 }
 .join-bunch-input input{
-    width: 220px;
+    width: 250px;
 
 }
 .join-bunch-input .btn-primary{
@@ -433,6 +470,12 @@ footer ul li:first-child{
 }
 
 /* footer section */
+.banner-section{
+    width: 75%;
+}
+.banner-section p{
+    margin-top: 15px;
+}
 .footer-section{
     flex-direction: column;
     gap: 26px;
@@ -441,4 +484,5 @@ footer{
     height: auto;
     padding: 50px 20px;
 }
+
 }
