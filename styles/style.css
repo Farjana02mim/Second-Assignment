@@ -52,6 +52,9 @@ nav ul li a{
      color: #8987A1;
      
 }
+#cart-shop{
+   
+}
 
 /* banner style */
 .banner{
@@ -402,7 +405,7 @@ footer ul li:first-child{
 .card-section-description{
     text-align: center;
     padding: 0 10px;
-    font-size: 17.5px;
+    font-size: 20px;
 }
 .cards{
     grid-template-columns: repeat(2,1fr);
@@ -438,7 +441,7 @@ footer ul li:first-child{
     padding-left: 20px;
 }
 .flower-plants-right ul li{
-    font-size: 17px;
+    font-size: 19px;
 }
 
 /* latest-section */
