@@ -52,9 +52,6 @@ nav ul li a{
      color: #8987A1;
      
 }
-#cart-shop{
-   
-}
 
 /* banner style */
 .banner{
@@ -411,9 +408,7 @@ footer ul li:first-child{
     grid-template-columns: repeat(2,1fr);
      margin-bottom: 20px;
 }
-.card{
-    /* height: 430px; */
-}
+
 /* flower-plants lover */
 .logo{
     display: none;
